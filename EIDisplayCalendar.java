@@ -45,8 +45,9 @@ public class EIDisplayCalendar {
                 return "November";
             case 12:
                 return "December";
+            default:
+                return "";
         }
-        return "";
     }
 
     public static void displayCalendar(int year, int month) {
@@ -107,4 +108,5 @@ public class EIDisplayCalendar {
         System.out.println("|");
         System.out.println("|____|____|____|____|____|____|____|");
     }
+
 }
